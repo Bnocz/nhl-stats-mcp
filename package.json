@@ -42,5 +42,14 @@
   ],
   "engines": {
     "node": ">=20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnocz/nhl-stats-mcp.git"
+  },
+  "homepage": "https://github.com/bnocz/nhl-stats-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/bnocz/nhl-stats-mcp/issues"
+  },
+  "author": "Bertram Nocon"
 }

@@ -52,7 +52,7 @@ Add this to `claude_desktop_config.json` (Settings → Developer → Edit Config
 ### From source
 
 ```bash
-git clone https://github.com/<you>/nhl-stats-mcp.git
+git clone https://github.com/bnocz/nhl-stats-mcp.git
 cd nhl-stats-mcp
 npm install
 npm run build
