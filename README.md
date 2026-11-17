@@ -49,6 +49,19 @@ Add this to `claude_desktop_config.json` (Settings → Developer → Edit Config
 }
 ```
 
+**On Windows**, Claude Desktop can't start `npx` directly (it's a `.cmd` script), so run it through `cmd`:
+
+```json
+{
+  "mcpServers": {
+    "nhl-stats": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "nhl-stats-mcp"]
+    }
+  }
+}
+```
+
 ### From source
 
 ```bash
